@@ -8,7 +8,7 @@ const Detail: React.FC = () => {
   const { name = "" } = useParams();
   return (
     <section className='details mb-11'>
-      <NavBar />
+      <NavBar searchPage={false} />
       <PokemonDetail name={name} />
     </section>
   )
